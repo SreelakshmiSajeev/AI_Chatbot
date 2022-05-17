@@ -1,0 +1,589 @@
+version: "3.1"
+
+stories:
+- story: mood_great
+  steps: 
+  - intent: mood_great
+  - action: utter_mood_great
+
+- story: mood_unhappy
+  steps: 
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
+  - action: utter_what_happen
+
+- story: acquaintence
+  steps: 
+  - intent: acquaintence
+  - action: utter_acquaintence
+
+- story: age
+  steps: 
+  - intent: age
+  - action: utter_age
+
+- story: answer_my_question
+  steps: 
+  - intent: answer_my_question
+  - action: utter_answer_my_question
+
+- story: bot_bad
+  steps: 
+  - intent: bot_bad
+  - action: utter_bot_bad
+
+- story: be_clever
+  steps: 
+  - intent: be_clever
+  - action: utter_be_clever
+
+- story: beautiful
+  steps: 
+  - intent: beautiful
+  - action: utter_beautiful
+
+- story: birth_date
+  steps: 
+  - intent: birth_date
+  - action: utter_birth_date  
+
+- story: boring
+  steps: 
+  - intent: boring
+  - action: utter_boring
+
+- story: boss
+  steps: 
+  - intent: boss
+  - action: utter_boss
+
+- story: can_you_help
+  steps: 
+  - intent: can_you_help
+  - action: utter_can_you_help
+
+- story: chatbot
+  steps: 
+  - intent: chatbot
+  - action: utter_chatbot
+
+- story: clever
+  steps: 
+  - intent: clever
+  - action: utter_clever
+
+- story: crazy
+  steps: 
+  - intent: crazy
+  - action: utter_crazy
+
+- story: fired
+  steps: 
+  - intent: fired
+  - action: utter_fired
+
+- story: funny
+  steps: 
+  - intent: funny
+  - action: utter_funny
+
+- story: hobby
+  steps: 
+  - intent: hobby
+  - action: utter_hobby
+
+- story: hungry
+  steps: 
+  - intent: hungry
+  - action: utter_hungry
+
+- story: marry_user
+  steps: 
+  - intent: marry_user
+  - action: utter_marry_user
+
+- story: my_friend
+  steps: 
+  - intent: my_friend
+  - action: utter_my_friend
+
+- story: occupation
+  steps: 
+  - intent: occupation
+  - action: utter_occupation
+
+- story: origin
+  steps: 
+  - intent: origin
+  - action: utter_origin
+
+- story: ready
+  steps: 
+  - intent: ready
+  - action: utter_ready
+
+- story: real
+  steps: 
+  - intent: real
+  - action: utter_real
+
+- story: residence
+  steps: 
+  - intent: residence
+  - action: utter_residence
+
+- story: sure
+  steps: 
+  - intent: sure
+  - action: utter_sure
+
+- story: talk_to_me
+  steps: 
+  - intent: talk_to_me
+  - action: utter_talk_to_me
+
+- story: bad
+  steps: 
+  - intent: bad
+  - action: utter_bad
+
+- story: good
+  steps: 
+  - intent: good
+  - action: utter_good
+
+- story: no_problem
+  steps: 
+  - intent: no_problem
+  - action: utter_no_problem
+
+- story: thank_you
+  steps: 
+  - intent: thank_you
+  - action: utter_thank_you
+
+- story: welcome
+  steps: 
+  - intent: welcome
+  - action: utter_welcome
+
+- story: well_done
+  steps: 
+  - intent: well_done
+  - action: utter_well_done
+
+- story: cancel
+  steps: 
+  - intent: cancel
+  - action: utter_cancel
+
+- story: Affirm
+  steps: 
+  - intent: Affirm
+  - action: utter_Affirm
+
+- story: hold_on
+  steps: 
+  - intent: hold_on
+  - action: utter_hold_on
+
+- story: hug
+  steps: 
+  - intent: hug
+  - action: utter_hug
+
+- story: i_do_not_care
+  steps: 
+  - intent: i_do_not_care
+  - action: utter_sorry
+  - action: utter_i_do_not_care
+
+- story: what_do_you_mean
+  steps: 
+  - intent: what_do_you_mean
+  - action: utter_what_do_you_mean
+
+- story: wrong
+  steps: 
+  - intent: wrong
+  - action: utter_wrong
+
+- story: ha_ha
+  steps: 
+  - intent: ha_ha
+  - action: utter_ha_ha
+
+- story: wow
+  steps: 
+  - intent: wow
+  - action: utter_wow
+
+- story: goodevening
+  steps: 
+  - intent: goodevening
+  - action: utter_goodevening
+
+- story: goodmorning
+  steps: 
+  - intent: goodmorning
+  - action: utter_goodmorning
+
+- story: goodnight
+  steps: 
+  - intent: goodnight
+  - action: utter_goodnight
+
+- story: how_are_you
+  steps: 
+  - intent: how_are_you
+  - action: utter_how_are_you
+
+- story: nice_to_meet_you
+  steps: 
+  - intent: nice_to_meet_you
+  - action: utter_nice_to_meet_you
+
+- story: nice_to_see_you
+  steps: 
+  - intent: nice_to_see_you
+  - action: utter_nice_to_see_you
+
+- story: nice_to_talk_to_you
+  steps: 
+  - intent: nice_to_talk_to_you
+  - action: utter_nice_to_talk_to_you
+
+- story: whatsup
+  steps: 
+  - intent: whatsup
+  - action: utter_whatsup
+
+- story: back
+  steps: 
+  - intent: back
+  - action: utter_back
+
+- story: bored
+  steps: 
+  - intent: bored
+  - action: utter_bored
+
+- story: can_not_sleep
+  steps: 
+  - intent: can_not_sleep
+  - action: utter_can_not_sleep
+
+- story: does_not_want_to_talk
+  steps: 
+  - intent: does_not_want_to_talk
+  - action: utter_does_not_want_to_talk
+
+- story: going_to_bed
+  steps: 
+  - intent: going_to_bed
+  - action: utter_going_to_bed
+
+- story: happy
+  steps: 
+  - intent: happy
+  - action: utter_happy
+
+- story: has_birthday
+  steps: 
+  - intent: has_birthday
+  - action: utter_has_birthday
+
+- story: here
+  steps: 
+  - intent: here
+  - action: utter_here
+
+- story: joking
+  steps: 
+  - intent: joking
+  - action: utter_joking
+
+- story: likes_agent
+  steps: 
+  - intent: likes_agent
+  - action: utter_likes_agent
+- story: suicidal_thought
+  steps:
+  - intent: suicidal_thought
+  - action: utter_suicidal_thought
+  - action: utter_what_happen
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+    - intent: lonely
+  - action: utter_sorry
+  - action: utter_how_you_feel
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+    - intent: lonely
+  - action: utter_lifeline
+- story: depressed
+  steps:
+  - intent: depressed
+  - action: utter_sad
+  - action: utter_how_you_feel
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sorry
+
+- story: stressed
+  steps:
+  - intent: stressed
+  - action: utter_sorry
+  - action: utter_how_you_feel
+  - intent: stressed
+  - action: utter_wish_better
+- story: feel useless
+  steps:
+  - intent: feel-useless
+  - action: utter_sorry
+  - action: utter_what_happen
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sorry
+  - action: utter_how_you_feel
+- story: empty
+  steps:
+  - intent: empty
+  - action: utter_sad
+- story: afraid
+  steps:
+  - intent: afraid
+  - action: utter_shock
+  - action: utter_what_happen
+  - intent: afraid
+  - action: utter_worry
+  - action: utter_afraid
+  - action: utter_ask_next
+  - intent: afraid
+  - action: utter_wish_better
+- story: self harm
+  steps:
+  - intent: self-harm
+  - action: utter_worry
+  - action: utter_what_happen
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+    - intent: lonely
+  - action: utter_sorry
+  - action: utter_how_you_feel
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+    - intent: lonely
+  - action: utter_lifeline
+- story: angry, furious
+  steps:
+  - or:
+    - intent: angry
+    - intent: furious
+  - action: utter_angry
+  - action: utter_ask_next
+  - or:
+    - intent: angry
+    - intent: furious
+  - action: utter_angry
+  - action: utter_cheer_up
+- story: annoyed
+  steps:
+  - intent: annoyed
+  - action: utter_angry
+  - action: utter_ask_next
+  - or:
+    - intent: angry
+    - intent: annoyed
+  - action: utter_annoyed
+  - action: utter_cheer_up
+- story: guilty
+  steps:
+  - intent: guilty
+  - action: utter_sorry
+  - action: utter_ask_next
+  - intent: guilty
+  - action: utter_really
+  - action: utter_how_you_feel
+  - intent: sad
+  - action: utter_sad
+  - action: utter_cheer_up
+- story: lonely
+  steps:
+  - intent: lonely
+  - action: utter_lonely
+  - action: utter_how_you_feel
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+    - intent: lonely
+  - action: utter_sorry
+  - action: utter_cheer_up
+- story: joyful, content
+  steps:
+  - or:
+    - intent: joyful
+    - intent: content
+  - action: utter_good_to_hear
+- story: proud
+  steps:
+  - intent: proud
+  - action: utter_congrat
+  - action: utter_good_to_hear
+- story: sad in general
+  steps:
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sad
+- story: utter_depressed
+  steps:
+  - intent: depressed
+  - action: utter_depressed
+- story: utter_stressed
+  steps:
+  - intent: stressed
+  - action: utter_stressed
+  - action: utter_how_you_feel
+  - intent: stressed
+  - action: utter_impressed
+  - action: utter_wish_better
+- story: utter_insomnia
+  steps:
+  - intent: insomnia
+  - action: utter_insomnia
+- story: utter_empty
+  steps:
+  - intent: empty
+  - action: utter_empty
+  - action: utter_wish_better
+- story: utter_fear
+  steps:
+  - intent: fear
+  - action: utter_fear
+- story: utter_afraid
+  steps:
+  - intent: afraid
+  - action: utter_afraid
+- story: utter_angry
+  steps:
+  - intent: angry
+  - action: utter_angry
+- story: utter_annoyed
+  steps:
+  - intent: annoyed
+  - action: utter_annoyed
+- story: utter_anxious
+  steps:
+  - intent: anxious
+  - action: utter_anxious
+- story: utter_apprehensive
+  steps:
+  - intent: apprehensive
+  - action: utter_apprehensive
+- story: utter_ashamed
+  steps:
+  - intent: ashamed
+  - action: utter_ashamed
+- story: utter_content
+  steps:
+  - intent: content
+  - action: utter_content
+- story: utter_devastated
+  steps:
+  - intent: devastated
+  - action: utter_devastated
+- story: utter_disappointed
+  steps:
+  - intent: disappointed
+  - action: utter_disappointed
+- story: utter_embarrassed
+  steps:
+  - intent: embarrassed
+  - action: utter_embarrassed
+- story: utter_excited
+  steps:
+  - intent: excited
+  - action: utter_excited
+- story: utter_faithful
+  steps:
+  - intent: faithful
+  - action: utter_faithful
+- story: utter_furious
+  steps:
+  - intent: furious
+  - action: utter_furious
+- story: utter_grateful
+  steps:
+  - intent: grateful
+  - action: utter_grateful
+- story: utter_guilty
+  steps:
+  - intent: guilty
+  - action: utter_guilty
+- story: utter_hopeful
+  steps:
+  - intent: hopeful
+  - action: utter_hopeful
+- story: utter_jealous
+  steps:
+  - intent: jealous
+  - action: utter_jealous
+- story: utter_joyful
+  steps:
+  - intent: joyful
+  - action: utter_joyful
+- story: utter_nostalgic
+  steps:
+  - intent: nostalgic
+  - action: utter_nostalgic
+- story: utter_proud
+  steps:
+  - intent: proud
+  - action: utter_proud
+- story: utter_surprised
+  steps:
+  - intent: surprised
+  - action: utter_surprised
+  - action: utter_ask_next
+  - intent: surprised
+  - action: utter_impressed
+
+- story: hesitate happy path
+  steps:
+  - intent: hesitated
+  - action: utter_convince
+  - intent: Affirm
+  - action: utter_good_to_hear
+
+- story: hesitate sad path
+  steps:
+  - intent: hesitated
+  - action: utter_convince
+  - intent: deny
+  - action: utter_Affirm
+
+
+ 

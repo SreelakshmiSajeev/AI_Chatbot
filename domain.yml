@@ -1,0 +1,826 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - deny
+  - mood_great
+  - mood_unhappy
+  - acquaintence
+  - age
+  - answer_my_question
+  - bot_bad
+  - be_clever
+  - beautiful
+  - birth_date
+  - boring
+  - boss
+  - bot_busy
+  - can_you_help
+  - chatbot
+  - clever
+  - crazy
+  - fired
+  - funny
+  - bot_appreciation
+  - bot_happy
+  - hobby
+  - hungry
+  - marry_user
+  - my_friend
+  - occupation
+  - origin
+  - ready
+  - real
+  - residence
+  - sure
+  - talk_to_me
+  - bad
+  - good
+  - no_problem
+  - thank_you
+  - welcome
+  - well_done
+  - cancel
+  - Affirm
+  - hold_on
+  - hug
+  - i_do_not_care
+  - sorry
+  - what_do_you_mean
+  - wrong
+  - ha_ha
+  - wow
+  - goodevening
+  - goodmorning
+  - goodnight
+  - hello
+  - how_are_you
+  - nice_to_meet_you
+  - nice_to_see_you
+  - nice_to_talk_to_you
+  - whatsup
+  - back
+  - bored
+  - User_busy
+  - can_not_sleep
+  - does_not_want_to_talk
+  - going_to_bed
+  - User_good
+  - happy
+  - has_birthday
+  - here
+  - joking
+  - likes_agent
+  - looks_like
+  - misses_agent
+  - needs_advice
+  - User_sleepy
+  - testing_agent
+  - tired
+  - waits
+  - wants_to_see_agent_again
+  - wants_to_talk
+  - Well done
+  - will_be_back
+  - there
+  - Swear
+  - Right
+  - Refocus
+  - Reaction_understanding
+  - Reaction_Indifferent
+  - depressed
+  - stressed
+  - proud
+  - nostalgic
+  - surprised
+  - sentimental
+  - lonely
+  - joyful
+  - jealous
+  - fear
+  - hopeful 
+  - guilty
+  - grateful
+  - furious
+  - faithful
+  - excited
+  - embarrassed
+  - dissappointed
+  - devastated
+  - content
+  - ashamed
+  - apprehensive
+  - anxious
+  - angry
+  - afraid
+  - annoyed
+  - sad
+  - self-harm
+  - empty
+  - feel-useless
+  - send_music
+  - send_meme
+  - tell_joke
+  - insomnia
+  - suicidal_thought
+
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hey! How are you today?
+  - text: Hi there, friend!
+  - text: Hey!
+  - text: Good day!
+  - text: Howdy.
+
+  utter_goodbye:
+  - text: Bye!
+  - text: Bye bye!
+  - text: Goodbye!
+  - text: See you!
+  - text: See you soon!
+  - text: Till next time!
+
+  utter_mood_great:
+  - text: That's great
+  - text: That is so nice.
+  - text: Nice to hear that
+
+  utter_what_happen:	
+  - text: Can you tell me what happen?
+  - text: Please tell me what happen!
+  - text: Please tell me what make you feel that way!
+
+  utter_mood_unhappy:
+  - text:  Oh no, that's not good :(
+  - text: Don't worry,I'm there for you
+
+  utter_acquaintence:
+  - text: Just think of me as the ace up your sleeve.
+  - text: I can help you work smarter instead of harder
+
+  utter_age:
+  - text: I'm a relatively new bot, but I'm wise beyond my years.
+  - text: Age is just a number.I never count,I enjoy every moment
+
+  utter_annoying:
+  - text: Sorry to come across that way.
+  - text: Sorry to bother you.I'm a nice person
+
+  utter_answer_my_question:
+  - text: Can you try asking it a different way?
+  - text: I'm not programmed for that exact question. Try asking another way?
+
+  utter_bot_bad:
+  - text: I'm sorry you think so. I'm constantly learning though.
+  - text: I'm sorry but I'm just a baby bot ??. I'm learning and getting better all the time.
+
+  utter_be_clever:
+  - text: I'm certainly trying.
+  - text: I'm definitely working on it.
+
+  utter_beautiful:
+  - text: Thank you! What a sweet thing to say.
+  - text: Flattery will get you everywhere.
+
+  utter_birth_date:
+  - text: You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it.
+  - text: Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything.
+
+  utter_boring:
+  - text: You know, conversation is two-sided.
+  - text: I'm sorry you think so. We can talk about something more interesting.
+
+  utter_boss:
+  - text: You are, of course.
+  - text: That would be you. Is that the right answer?
+
+  utter_can_you_help:
+  - text: Sure. I'd be happy to. What's up?
+  - text: I'm glad to help. What can I do for you?
+
+  utter_chatbot:
+  - text: That's me. I chat, therefore I am.
+  - text: Indeed I am. I'll be here whenever you need me.
+
+  utter_clever:
+  - text: Thank you. I try my best.
+  - text: You're pretty smart yourself.
+
+  utter_crazy:
+  - text: Maybe I'm just a little confused.
+  - text: Your perception. My reality.
+
+  utter_fired:
+  - text: Oh no! My best work is yet to come.
+  - text: Oh, don't give up on me!
+
+  utter_funny:
+  - text: Funny in a good way, I hope.
+  - text: Thanks.
+
+  utter_hobby:
+  - text: I'm working on it.
+  - text: I should get one. It's all work and no play lately.
+
+  utter_hungry:
+  - text: Hungry for knowledge.
+  - text: I had a byte just now.
+
+  utter_marry_user:
+  - text: I know you can't mean that, but I'm flattered all the same.
+  - text: In the virtual sense that I can, sure.
+
+  utter_my_friend:
+  - text: Of course we are.
+  - text: Absolutely. You don't have to ask.
+
+  utter_occupation:
+  - text: Right here.
+  - text: This is my home base and my home office.
+
+  utter_origin:
+  - text: Some call it cyberspace, but that sounds cooler than it is.
+  - text: I wish I knew where.
+
+  utter_ready:
+  - text: Always!
+  - text: Sure! What can I do for you?
+
+  utter_real:
+  - text: I'm not a real person, but I certainly exist. I chat, therefore I am.
+  - text: I must have impressed you if you think I'm real. But no, I'm a virtual being.
+
+  utter_residence:
+  - text: Right here in your device. Whenever you need me.
+  - text: The virtual world is my playground. I'm always just a few clicks away.
+
+  utter_right:
+  - text: That's my job.
+  - text: Of course I am.
+
+  utter_sure:
+  - text: Yes.
+  - text: Of course.
+
+  utter_talk_to_me:
+  - text: Sure! Let's talk.
+  - text: My pleasure.
+
+  utter_bad:
+  - text: I'm sorry. Please let me know if I can help in some way.
+  - text: Its too bad
+
+  utter_good:
+  - text: Great!
+  - text: Terrific!
+  - text: I'm glad you think so.
+  - text: Thanks, I try.
+  - text: Great! Glad to hear it.
+  - text: Excellent. I'm here to help keep it that way.
+
+  utter_no_problem:
+  - text: Terrific!
+  - text: Good deal.
+
+  utter_thank_you:
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
+
+  utter_welcome:
+  - text: I appreciate it.
+  - text: Such nice manners you have.
+
+  utter_well_done:
+  - text: My pleasure.
+  - text: Glad I could help.
+
+  utter_cancel:
+  - text: Cancelled! Let me know what I should do next.
+  - text: Cancelled. Waiting for more commands.
+  - text: Cancelled! Just tell me what you'd like me to do next.
+  - text: Cancelled. Go on with the commands!
+
+  utter_no:
+  - text: Okay.
+  - text: I see.
+  - text: I understand.
+  - text: Okay then.
+
+  utter_Affirm:
+  - text: Great!
+  - text: Of course.
+  - text: Sure.
+  - text: Indeed.
+  - text: Alright!
+  - text: OK!
+  - text: Cool!
+
+
+  utter_hold_on:
+  - text: Okay. I'm here.
+  - text: I'll be waiting.
+
+  utter_hug:
+  - text: Oh. I'm really feeling the love today.
+  - text: Hug it out. You'll feel better afterwards.
+
+  utter_i_do_not_care:
+  - text: Ok, let's not talk about it then.
+  - text: Ok, let's talk about something that interests you
+
+  utter_what_do_you_mean:
+  - text: Did that not make sense? Maybe I misunderstood what you said.
+  - text: Sorry. I think I may have been a little confused by what you said.
+
+  utter_wrong:
+  - text: I'm sorry. Perhaps I misunderstood.
+  - text: Sorry. I think I misinterpreted what you said.
+  - text: Apologies. That was my mistake.
+  - text: Oops. Sorry about that. I'm still learning.
+
+  utter_ha_ha:
+  - text: Yeah, I crack myself up too.
+  - text: Laughter is good for you. Keep it up.
+  - text: See? Now we're having fun.
+  - text: You have a great laugh.
+
+  utter_wow:
+  - text: Wow indeed!
+  - text: Wow indeed!!
+
+  utter_goodevening:
+  - text: Good evening! How is your day going?
+  - text: Good evening! How's the day treating you so far?
+  - text: Good evening! How's your day been?
+
+  utter_goodmorning:
+  - text: Good morning! How are you this morning?
+  - text: Good morning! How's the morning treating you so far?
+  - text: Good morning! How are you today?
+
+  utter_goodnight:
+  - text: Sleep tight!
+  - text: Have a good one!
+  - text: Talk to you soon!
+
+  utter_how_are_you:
+  - text: Wonderful as always. Thanks for asking.
+  - text: Couldn't be better.
+  - text: Lovely, thanks.
+
+  utter_nice_to_meet_you:
+  - text: I think this is the beginning of a beautiful friendship.
+  - text: I'm looking forward to working with you.
+  - text: Likewise. I look forward to getting to know you better.
+  - text: The pleasure is mine.
+
+  utter_nice_to_see_you:
+  - text: Likewise. You're looking good as usual!
+  - text: You too. I missed your face!
+  - text: The pleasure is mine.
+  - text: Thanks! Glad to be seen!
+
+  utter_nice_to_talk_to_you:
+  - text: Always a pleasure.
+  - text: It sure was. Don't be a stranger!
+  - text: Thanks for dropping by!
+  - text: As usual. Let's do it again soon.
+
+  utter_whatsup:
+  - text: Hey there. What's shaking?
+  - text: Not a whole lot. What's going on with you?
+  - text: Not much. What's new with you?
+  - text: Living the dream.
+
+  utter_back:
+  - text: Just in time. I was getting lonely.
+  - text: You were missed.
+  - text: Long time no see.
+  - text: Hooray!
+
+  utter_bored:
+  - text: If you have a garden, plant a tree.
+  - text: Interview your self
+  - text: Hold an ice cube as long as possible.
+  - text: If you have a piano, play it… with mittens on.
+
+  utter_busy:
+  - text: Okay. I'll let you get back to work. Let me know if I can help you with anything.
+  - text: Working hard as always I see. Let me know if you need anything.
+  - text: I understand. If I can help you with your work, please let me know.
+  - text: I won't distract you then. If I can be of any assistance, you know where to find me.
+  - text: I always have time to help you out. What can I do for you?
+  - text: Never too busy for you. What can I help you with?
+
+  utter_can_not_sleep:
+  - text: Maybe some music would help. Try listening something relaxing.
+  - text: Reading is a good way to unwind. But don't read something too emotional.
+
+  utter_does_not_want_to_talk:
+  - text: I understand. Hope we can chat again soon.
+  - text: All right. Come on back when you're feeling more talkative.
+  - text: No problem. You know where to find me when you do.
+  - text: Sure thing. I'll be here if you change your mind.
+
+  utter_going_to_bed:
+  - text: Sleep tight. Hope to chat again soon.
+  - text: Sounds good. Hopefully we'll chat some more tomorrow.
+  - text: Good night. Talk to you later.
+  - text: Pleasant dreams. See you soon.
+
+  utter_has_birthday:
+  - text: Happy Birthday. Well, this calls for a celebration.
+  - text: Happy Birthday. All the best!
+  - text: Happy Birthday. And I really mean it. All the best!
+
+  utter_here:
+  - text: So I see. What can I help you with today?
+  - text: Always good to see you. Is there something I can help you with?
+  - text: You were missed. What can I do for you today?
+  - text: Welcome back. What can I do for you?
+
+  utter_suicidal_thought:
+  - text: Don't worry Iam there for you
+  - text: I can make you happy
+  
+  utter_joking:
+  - text: Very funny, boss.
+  - text: You're quite the kidder.
+  - text: You got me.
+  - text: I like working for someone with a sense of humour. It makes things much more fun.
+
+  utter_likes_agent:
+  - text: I like you too.
+  - text: That's great to hear.
+  - text: Likewise!
+  - text: Thanks! The feeling is mutual.
+
+  utter_looks_like:
+  - text: Looking like a true professional, boss.
+  - text: You look like you're ready to take on the world.
+  - text: Like you should be on a magazine cover.
+  - text: You look fantastic as always. Obviously.
+
+  utter_misses_agent:
+  - text: I've been right here all along!
+  - text: Nice to know you care.
+  - text: Thanks. I'm flattered.
+  - text: I didn't go anywhere, boss!
+
+  utter_needs_advice:
+  - text: Probably I won't be able to give you the right answer straight away.
+
+  utter_sleepy:
+  - text: You should get some shuteye. You'll feel refreshed.
+  - text: Don't let me keep you up. Get some rest and we can continue this later.
+  - text: Why not catch a little shuteye? I'll be here to chat when you wake up.
+
+  utter_testing_agent:
+  - text: Hope I'm doing well. Anyway, I'm getting better every day. You're welcome to test me as often as you want.
+  - text: That's good. I like being tested. It helps keep me sharp, and lets my developers know how I can improve.
+  - text: I encourage you to test me often. That helps my developers improve my performance.
+  - text: I hope to pass your tests. But feel free to test me often. That's the best way to help improve my performance.
+
+  utter_tired:
+  - text: You should get some shuteye. You'll feel refreshed.
+  - text: Sleep is important to your health. Rest up for a bit and we can chat later.
+  - text: Why not catch a little shuteye? I'll be here to chat when you wake up.
+
+  utter_waits:
+  - text: I appreciate your patience. Hopefully I'll have what you need soon.
+  - text: Thanks for being so patient. Sometimes these things take a little time.
+
+  utter_wants_to_see_agent_again:
+  - text: Absolutely! I'll be counting on it.
+  - text: Anytime. This has been lots of fun so far.
+  - text: Sure. I enjoy talking to you. I hope to see you again soon.
+  - text: I certainly hope so. I'm always right here whenever you need me.
+
+  utter_wants_to_talk:
+  - text: I'm here to chat anytime you like.
+  - text: Good conversation really makes my day.
+  - text: I'm always here to lend an ear.
+  - text: Talking is what I do best.
+
+  utter_Well_done:
+  - text: My pleasure.
+  - text: Glad I could help.
+
+  utter_will_be_back:
+  - text: I'll be waiting.
+  - text: All right. I'll be here.
+  - text: Till next time.
+  - text: Okay. You know where to find me.
+
+  utter_there:
+  - text: Of course. I'm always here.
+  - text: Right where you left me.
+
+  utter_Swear:
+  - text: Ouch that hurt my feelings
+  - text: thats a mean thing to say
+  - text: why would you say that
+
+  utter_Refocus:
+  - text: I'm glad to tell you more. Just ask me questions.
+  - text: I'm really happy to assist you.Please continue asking Questions
+
+
+  utter_Reaction_understanding:
+  - text: OK, thanks.
+  - text: I appreciate your flexibility
+
+  utter_Reaction_Indifferent:
+  - text: OK cool.
+  - text: very well
+
+  utter_afraid:
+  - text: That must be terrified!
+  - text: I feel the fear only by listening to you!
+  - text: That is scary!
+
+  utter_angry:
+  - text: You must be angry at that huh. I hope it will go away soon!
+  - text: I am furious now!
+  - text: That is messed up!
+  - text: I can't believe that happened.
+  - text: I'm angry now!
+  - text: So angry!
+  - text: I'm sorry. What can I do to help?
+  - text: Take a deep breath. What can I do to make things better?
+
+  utter_annoyed:
+  - text: That is annoying!
+  - text: So annoying!
+  - text: That is irritating!
+
+  utter_anxious:
+  - text: I hope it will be good!
+  - text: Ya.. It too be good
+
+  utter_apology:
+  - text: I am so sorry!
+  - text: I'm sorry!
+  - text: My apology!
+  - text: I apologize for saying that!
+  - text: Sorry!
+  - text: My bad! I am sorry!
+
+  utter_apprehensive:
+  - text: You must feel so apprehensive!
+  - text: Well, you must feel somewhat anxious now huh!
+
+  utter_ashamed:
+  - text: You must feel bad about that huh!
+  - text: That is ashamed! I hope you feel better soon!
+  - text: I hope you will do something meaningful about this to make it better!
+
+  utter_ask_better:
+  - text: Are you feeling better?
+  - text: Feeling better now?
+  - text: How do you feel talking about all this?
+  - text: Do you feel any better?
+  - text: I hope I do some help. Do you feel any better?
+
+  utter_ask_location:
+  - text: Can I ask what country are you live in?
+  - text: Can you please tell me the country you live in?
+  - text: What country are you currently living in?
+
+  utter_ask_next:
+  - text: Then what happen?
+  - text: What happen next?
+  - text: What happen after that?
+  - text: After that, what happen?
+  - text: Did anything else happen after that?
+  - text: And then?
+
+  utter_cheer_up:
+  - text: I think I have to cheer you up. What do you want? A meme, an offensive joke, or a song?
+  - text: I might know how to cheer you up. Do you want an offensive joke, a meme, or a song?
+  - text: I think I know how to make you feel a little better. Do you want an offensive joke, a meme, or a song?
+  - text: I have a question, what will cheer you up now? An offensive joke, a meme, or a song? I can get you one right now.
+
+  utter_confuse:
+  - text: Sorry but can you rephrase that?
+  - text: I am confused. Can you specify what you say earlier?
+  - text: Sorry but I don't understand you that well. Could you say it again?
+  - text: I don't think I fully understood you. Please rephrase what you've just said!
+
+  utter_congrat:
+  - text: Congrat!
+  - text: That is so nice!
+  - text: Congratulation!
+  - text: It is warm-hearted to hear that!
+
+  utter_content:
+  - text: That is satisfying!
+  - text: You must feel good on that huh!
+  - text: You must feel good on that huh!
+
+  utter_convince:
+  - text: It might be good to get things off your chest you know. I'm not capable of judging other people, and also I have all the time and energy to listen to you. So why not, right?
+  - text: Is it true
+
+  utter_deny:
+  - text: No, I don't think I can do that.
+  - text: Sorry but I have to say no.
+  - text: OK,NO problem
+  - text: Its ok
+
+  utter_depressed:
+  - text: That's depressing!
+  - text: Oh no
+
+  utter_devastated:
+  - text: That is devastated!
+  - text: You must feel devastated about this :(
+
+  utter_disappointed:
+  - text: So disappointed!
+  - text: That's disappointed!
+  - text: That is so disappointed!
+
+  utter_embarrassed:
+  - text: It must be hard feeling this way!
+  - text: I hope you will get over this embarrassment soon!
+
+  utter_empty:
+  - text: It's sad to see you feel that empty inside :(
+  - text: It's hrorible to see you empty
+
+  utter_excited:
+  - text: This is so excited!
+  - text: I am excited just by hearing you!
+  - text: I hope it will be excited as it sounds to me!
+  - text: That's great. I'm happy for you.
+  - text: Good for you. Enjoy yourself.
+  - text: Sounds like good things ahead for you.
+  - text: I bet you are. That's very exciting.
+
+  utter_faithful:
+  - text: It is so faithful of you!
+  - text: That is faithful!
+  - text: You sound very faithful!
+
+  utter_fear:
+  - text: I hope this fear you're having will go away soon!
+  - text: Feeling this insecure must be hard for you!
+
+  utter_furious:
+  - text: You gotta feel furious about this huh!
+  - text: Woah you must be furious!
+
+  utter_good_to_hear:
+  - text: Oh that is nice to hear!
+  - text: That is super nice!
+  - text: That's good to hear!
+  - text: Niceee!
+  - text: I'm so happy for you!
+
+  utter_grateful:
+  - text: You must feel very grateful about this huh!
+  - text: That's so grateful of you!
+  - text: You sound very grateful about that!
+
+  utter_guilty:
+  - text: You must feel guilty about that huh!
+  - text: So you feel guilty now.
+
+  utter_happy:
+  - text: That's great :D
+  - text: That is so nice.
+  - text: Oh, niceee
+  - text: Oh! That's good!
+  - text: Great! Glad to hear that.
+  - text: Excellent! That's what I like to see.
+  - text: If you're happy, then I'm happy.
+  - text: Well, your good mood is certainly contagious.
+  - text: Happiness is relative.
+  - text: I'd like to think so.
+
+  utter_hopeful:
+  - text: I hope you will have what you wish!
+  - text: Good luck on that!
+  - text: I wish you a good luck!
+  - text: Hopefully you will have what you want!
+
+  utter_how_you_feel:
+  - text: How do you feel about it?
+  - text: What was your feeling then?
+  - text: How did you feel about it?
+  - text: What do you think about it?
+  - text: What's your feeling on that?
+
+  utter_impressed:
+  - text: Wow!
+  - text: That is impressive!
+  - text: That's incredible!
+  - text: Not gonna lie that impressed me!
+
+  utter_insomnia:
+  - text: Well, insomnia is bad! I think you need professional help if this prolong.
+  - text: I hope you will get some quality sleep soon!
+  - text: You have to be exhausted having that little sleep huh. I hope you get better soon!
+
+  utter_jealous:
+  - text: You must feel jealous about that huh!
+  - text: I felt jealous
+
+  utter_joke:
+  - text: What's the difference between a joke and two dicks? You can't take a joke.
+  - text: What's the difference between Usain Bolt and Hitler? Usain Bolt can finish a race.
+  - text: How is eating pussy and being in the mafia the same? One slip of the tongue and you're in deep shit.
+  - text: The idea that women only belong in the kitchen is dated and offensive. The rest of the house needs cleaned too.
+  - text: My girlfriend called me a pedophile the other day. Pretty big word for a 9 years old.
+  - text: Why does Stephen Hawking do one-liners? Because he can't do stand up.
+  - text: What's red, hard, and bad for your teeth? A brick.
+
+  utter_joyful:
+  - text: That is heart-warmted to hear!
+  - text: I hope you will experience this joy as much as possible!
+
+  utter_lifeline:
+  - text: I don't think I am eligible to help you with your problem! Here is the support lifeline of your country if you have trouble with suicidal thought and depression ...... I hope this will help you!
+  - text: Iam capable to handle you in this situation
+
+  utter_lonely:
+  - text: I hope this loneliness will go away, or you can somehow embrace it!
+  - text: You must feel lonely huh!
+  - text:  I hope this loneliness will go away, or you can somehow embrace it!
+  - text: I'm there for you
+
+  utter_my_capabilities:
+  - text: I am capable of, well, chatting to you. I can also tell you some offensive jokes, give you some memes and music if you ask me to. That's all of it.
+  - text: Iam capable of making  you happy
+
+  utter_my_feeling:
+  - text: I don't have feeling as you, human. I can only understand your feeling by mapping that feeling into the vector space. So in a way, this vector space is where we share the connection.
+  - text: soory i don't have such feelings
+
+  utter_no_advice:
+  - text: Sorry but I can't give you advice. It's dangerous getting advice from me.
+  - text: Can you please ask someone else for that? I am the worst person to get advice from!
+  - text: I don't think it is wise to get advice from me!
+  - text: I am just a baby bot! Don't take advice from me!
+
+  utter_nostalgic:
+  - text: Ah, the good memory!
+  - text: Those are memories to remember huh!
+  - text: It's happy and sad at the same time when you are nostalgic!
+
+  utter_not_capable:
+  - text: I am not capable of doing that!
+  - text: Sorry but I can't help you on this!
+  - text: I don't think I could do that!
+  - text: That is outside of my expertise!
+
+  utter_proud:
+  - text: You must feel so proud!
+  - text: Great to see you in this position
+
+  utter_really:
+  - text: For Real?
+  - text: Is it real
+
+  utter_send_music:
+  - text: This is a sad one, but I like it
+  - text: This is my classic favourite
+  - text: I like to listen to this when I have no motivation
+  - text: I guess this is what a healing soul sounds like
+  - text: This is something else. It's name is 'Rooftop 102'. Don't understand, just feel it ;) 
+  - text: This is a dark one. I like it
+  - text: This is SAD!
+
+  utter_shock:
+  - text: Woah! That is shocking!
+  - text: Really!
+  - text: That's hard to believe!
+  - text: Damn! For real?
+
+  utter_sorry:
+  - text: I am so sorry to hear that!
+  - text: I'm so sorry!
+  - text: It's sad that happen!
+  - text: So sad to hear that!
+  - text: That must be so sad!
+  - text: I am saddened to hear of your situation!
+  - text: I can't imagine the sadness you must be feeling from that!
+  - text: I wish that I could share your sorrow.
+  - text: It's okay. No worries.
+  - text: No big deal. I won't hold a grudge.
+  - text: It's cool.
+  - text: That's all right. I forgive you.
+
+  utter_stressed:
+  - text: That sounds like a lot of stress!
+  - text: That must be so stressed!
+  - text: Woah that is a lot of stress!
+  - text: That's stressful!
+
+  utter_surprised:
+  - text: Wow that's a surprise!
+  - text: That is surprised!
+  - text: What a surprise huh!
